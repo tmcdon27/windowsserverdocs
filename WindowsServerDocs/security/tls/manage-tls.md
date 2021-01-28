@@ -85,7 +85,7 @@ Administrators wanting to use these new curves in Windows must add the curve.
 Use the following certutil.exe command to add a curve to current computer:
 
 ```powershell
-Certutil —addEccCurue curveName curveParameters [curveOID] [curveType]
+Certutil —addEccCurve curveName curveParameters [curveOID] [curveType]
 ```
 
 - The **curveName** argument represents the name of the curve under which the curve parameters were added.
